@@ -10,6 +10,7 @@ var (
 	ErrEventDateFuture = errors.New("event date must be in the future")
 	ErrEventCapacityInvalid = errors.New("event capacity must be greater than 0")
 	ErrEventPriceInvalid = errors.New("event price must be greater than 0")
+	ErrEventNotFound      = errors.New("event not found")
 )
 
 type Rating string
